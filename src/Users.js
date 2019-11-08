@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import { getUsers } from '../store';
+import { getUsers } from './redux/store.js';
 
 class Users extends React.Component {
   constructor() {

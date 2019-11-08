@@ -1,7 +1,7 @@
 // import React from 'react';
 // import { connect } from 'react-redux';
 // import { Link } from 'react-router-dom';
-// import { setCartThunks } from '../store';
+// import { setCartThunks } from './redux/store.js;
 
 // const { Component } = React;
 
