@@ -120,6 +120,17 @@ router.get('/orders', (req, res, next) => {
     .catch(next);
 });
 
+// router.get('/api/admin', async ( req, res, next ) => {
+//   console.log('req',req.user);
+//    try {
+//     const admin = await Product.findAll();
+//     res.send(admin);
+//    }
+//    catch(ex) {
+//      next(ex)
+//   }
+// });
+
 
 
 //these lines serialize the user
